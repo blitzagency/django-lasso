@@ -1,6 +1,6 @@
 from django.conf.urls.defaults import patterns, include, url
 from tastypie.api import Api
-from links.api import LinkResource
+from links.api import LinkResource,TagResource
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
@@ -8,6 +8,9 @@ admin.autodiscover()
 
 v1_api = Api(api_name='v1')
 v1_api.register(LinkResource())
+v1_api.register(TagResource())
+
+
 
 urlpatterns = patterns('',
     # Examples:
