@@ -2,13 +2,13 @@ django-lasso
 ============
 
 ##get all endpoints:
-	`$ http://localhost:8000/api/v1/?format=json`
+	$ http://localhost:8000/api/v1/?format=json
 
 ##example list of all links:
-	`$ http://localhost:8000/api/v1/link/?format=json&limit=5`
+	$ http://localhost:8000/api/v1/link/?format=json&limit=5
 
 ##Getting all items with a certain tag:
-	`$ http://127.0.0.1:8000/api/v1/tag/?value=google`
+	http://127.0.0.1:8000/api/v1/tag/?value=google
 
 
 
